@@ -72,6 +72,7 @@ module RspecApiDocumentation
     protected
 
     def headers(*args)
+      return args[3]
       headers_to_env(super)
     end
 
